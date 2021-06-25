@@ -1,0 +1,14 @@
+1. Faça um programa que imprima na tela apenas os números ímpares entre 1 e 50. 
+2. Faça um programa que leia um nome de usuário e a sua senha e não aceite a senha igual ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações. 
+3. Faça um programa que imprima na tela os números de 1 a 20, um abaixo do outro. Depois modifique o programa para que ele mostre os números um ao lado do outro. 
+4. Faça um programa que calcule o fatorial de um número inteiro fornecido pelo usuário. Ex.: 5!=5.4.3.2.1=120
+5. Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+
+
+## Uso o que aprendemos, loops for e while
+## ifs, elifs, elses
+## print
+# input
+# operações matemáticas +,-,/,*
+# operadores de comparação: ==, <, >, <=, >=, !=
+# operadores: and, or, not
