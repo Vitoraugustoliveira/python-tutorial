@@ -1,0 +1,12 @@
+1. Dado que você tem duas listas, uma de chaves e outra de valores, como segue abaixo:
+
+chaves = ["Regina", "Claudio", "Jose"]
+valores = [170, 156, 201]
+
+Converta essas duas listas para a estrutura de dicionario, como segue abaixo:
+{"Regina": 170, "Claudio": 156, "Jose": 201}
+
+
+result = {}
+for i in range(0, 3):
+	result.update({chaves[i]: valores[i]})
