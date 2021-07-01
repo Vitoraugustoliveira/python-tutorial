@@ -1,0 +1,12 @@
+1. Transforme uma lista de elementos, que pode conter elementos repetidos, em uma lista de elementos distintos, ou seja, nas quais seus elementos nunca se repetem (elementos únicos).
+
+2. Identifique a quantidade de elementos duplicados que tinham na lista
+
+numeros_duplicados = len(lista_inicial) - len(lista_final)
+
+[2,3,4,4,4]
+[2,3,4]
+
+3. Transforme em função o que foi feito no exercicio 1
+
+4. Transforme em função o que foi feito no exercicio 2, ou seja, faça uma função que identifique a quantidade de elementos duplicados que tinham numa lista
