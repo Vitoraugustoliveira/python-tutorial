@@ -1,0 +1,28 @@
+_ _ _ _ 
+
+2 * 2 * 2 * 2 = 16 possíveis eventos
+1 K K K K
+2 K K K C
+4 K K C K
+5 K K C C
+6 K C C C
+7 C C C C
+8 C C C K
+9 C C K C
+10 C C K K
+11 C K K K
+12 C K C K
+13 K C K C
+14 K C C K
+15 C K K C
+16 K C K K
+
+A probabilidade de sair duas caras e duas coroas é de
+6/16 = 37.5%
+
+se quiser entender como faz via fórmula:
+http://www.matematicadidatica.com.br/Probabilidades-lancamento-quatro-moedas.aspx
+
+4 moedas e eu vou lançar essas 4 moedas 10x
+QUal a probabilidade de cair duas caras e duas coroas, 37.5 % é sabido via fórmula matemática
+Mas e na prática? 
