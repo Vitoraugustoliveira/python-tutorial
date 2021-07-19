@@ -1,0 +1,29 @@
+1. Classe Bichinho Virtual:Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
+
+Atributos: Nome, Fome, Saúde e Idade b. Métodos: Alterar Nome, Fome, Saúde e Idade; Retornar Nome, Fome, Saúde e Idade Obs: Existe mais uma informação que devemos levar em consideração, o Humor do nosso tamagushi, este humor é uma combinação entre os atributos Fome e Saúde, ou seja, um campo calculado, então não devemos criar um atributo para armazenar esta informação por que ela pode ser calculada a qualquer momento.
+Como calcular humor?
+0 -- 100 saude
+0 -- 100 Fome
+
+saude + fome = humor
+0 -- 200 -- humor
+0 = 0%
+100 = 50%
+200 = 100%
+
+Class Tamagoshi():
+
+    def __init__(self, ...):
+
+
+2. Classe Quadrado: Crie uma classe que modele um quadrado:
+
+Atributos: Tamanho do lado
+Métodos: Mudar valor do Lado, Retornar valor do Lado e calcular Área;
+
+3. Classe Funcionário: Implemente a classe Funcionário. Um empregado tem um nome (um string) e um salário(um double). Escreva um construtor com dois parâmetros (nome e salário) e métodos para devolver nome e salário. Escreva um pequeno programa que teste sua classe.
+
+4. Aprimore a classe do exercício anterior para adicionar o método aumentarSalario (porcentualDeAumento) que aumente o salário do funcionário em uma certa porcentagem.
+Exemplo de uso:
+  harry=funcionário("Harry",25000)
+  harry.aumentarSalario(10)
