@@ -14,7 +14,7 @@ def read_dataset(path, sep):
     path: path to dataset file
     return: Dataframe -> pandas type
     """
-    return pd.read_csv(path, sep=sep)
+    return pd.read_csv(path, sep=sep) #use the lib pandas to read csv file
 
 
 def convert_date(dataset):
@@ -31,6 +31,7 @@ def get_point(host_score, visitant_score):
 
 def find_status_final(dataset, club):
     matrix = []
+    # for que vai percorrer o dataset linha por linha
     for line in dataset.iterrows():
         if not (line[1]["Mandante"].lower() == club or line[1]["Visitante"].lower() == club):
             continue
@@ -61,8 +62,8 @@ def get_perfomance(dataset, club):
     return score_total
 
 def main():
-    relative_path_to_dataset = "datasets/campeonato-brasileiro-full.csv"
-    dataset = read_dataset(relative_path_to_dataset, ";")
+    relative_path_to_dataset = "datasets/campeonato-brasileiro-full.csv" # define path to dataset
+    dataset = read_dataset(relative_path_to_dataset, ";") # read dataset
     dataset = convert_date(dataset)
     club = "cruzeiro"
     begin_date="2013-01-01"
